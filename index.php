@@ -145,10 +145,60 @@ class cat{
     $elephant1->firstName = "Dumbo";
     $elephant1->lastName = "The Elephant";
     
-    print "The Elaphants name is {$elephant1->getName()}"
+    print "The Elaphants name is {$elephant1->getName()}";
     
     //The elephants name is Dumbo the elephant
-        
+    
+    class Cat {
+    public $firstName;
+    public $lastName;
+    public $breed;
+    
+    function_construct($title, $firstName, $lastName, $breed) {
+            $this->firstName = $winter;
+            $this->lastName = $white;
+            $this->breed = $cat;
+            }
+            
+            function getName(){
+                return "{$this->firstName}".
+                        "{$this->lastName}";
+            }
+    } 
+    
+    class Dog {
+    public $firstName;
+    public $lastName;
+    public $breed;
+    
+    function_construct($title, $firstName, $lastName, $breed) {
+            $this->firstName = $Hershey;
+            $this->lastName = $Drops;
+            $this->breed = $Dog;
+            }
+            
+            function getName(){
+                return "{$this->firstName}".
+                        "{$this->lastName}";
+            }
+    } 
+    
+    class italian {
+    public $firstName;
+    public $lastName;
+    public $breed;
+    
+    function_construct($title, $firstName, $lastName, $breed) {
+            $this->firstName = $Luca;
+            $this->lastName = $TheItalian;
+            $this->breed = $Italian;
+            }
+            
+            function getName(){
+                return "{$this->firstName}".
+                        "{$this->lastName}";
+            }
+    } 
         ?>
     </body>
 </html>
